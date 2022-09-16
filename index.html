@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Joburg's very first, Hotel for Students!">
+    <meta name="keywords" content="hotel, accomodation, Johannesburg accomodation for students">
+    <!-- we are going to use a css stylesheet (all.css) from fontawesome.com,
+    this will allow us to use fonts/icons... -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hotel BT | Johannesburg Student Hotel</title>
+</head>
+
+<body>
+
+    <!-- header & main interface of my hotel website -->
+    <header>
+        <nav id="navbar">
+            <!-- the contaner will allow us to move the logo and links
+                 around without moving the black navbar :) -->
+            <div class="container">
+                <h1 class="logo"><a href="index.html">HBT</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- main display below the navbar -->
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
+                    <p class="lead">We strive to give an unforgettable accomodation experience. Our mission is to ensure safe, reliable, and extraordinary housing for students.</p>
+                    <a class="btn" href="about.html">About Our Hotel</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="home-info" class="background-dark">
+        <div class="info-img">
+
+        </div>
+        <div class="info-content">
+            <h2><span class="text-primary">The History</span> Of Our Hotel</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat delectus sunt, ipsum cumque, perferendis ad voluptatum quia a rem voluptate aut est numquam deserunt nam sequi odio repellendus tempora unde eveniet. Nihil blanditiis repellendus
+                placeat voluptate, sapiente natus fugiat voluptatum.</p>
+            <a href="about.html" class="btn btn-light">Read More</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="box background-light">
+            <!-- fontawesome.com allows us to search for icons. Normally, the 1st
+            one of the set of 3 is free & the others are acessible through a 
+            subscription. The actual icon has HTML "i" tag, this gives us the icon -->
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Great Location</h3>
+            <p>Our hotel is located conveniently, to ensure easy access to facilities like malls, hospitals, public transport etc.</p>
+        </div>
+        <div class="box background-primary">
+            <i class="fas fa-utensils fa-3x"></i>
+            <h3>Free Meals</h3>
+            <p>Enjoy, breakfast in bed with our accomodation packages.</p>
+        </div>
+        <div class="box background-light">
+            <i class="fas fa-dumbbell fa-3x"></i>
+            <h3>Fitness Room</h3>
+            <p>Health is king. Enjoy a workout to keep a healthy lifestyle with our improved gym facility.</p>
+        </div>
+    </section>
+
+    <!-- since the 3 boxes above were floated, we need to clear the float so as to allow for addition 
+         of padding...this is done by the usage of the "clr" class -->
+    <div class="clr"></div>
+
+
+    <footer id="main-footer">
+        <p>Hotel BT &copy 2019, All rigts reserved</p>
+    </footer>
+
+</body>
+
+</html>
